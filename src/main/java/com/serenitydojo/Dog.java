@@ -2,14 +2,14 @@ package com.serenitydojo;
 
 public class Dog {
     public String name;
-    public String toy;
+    public String favoriteToy;
     public int age;
     public static final String DOG_NOISE = "Woof";
 
     // consturctor method
     public Dog(String name, String toy, int age) {
         this.name = name;
-        this.toy = toy;
+        this.favoriteToy = toy;
         this.age = age;
     }
     //Get Method
@@ -18,7 +18,6 @@ public class Dog {
     }
 
     public String getFavoriteToy() {
-        String favoriteToy = toy;
         return favoriteToy;
     }
 
